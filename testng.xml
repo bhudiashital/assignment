@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+    <test name="assignmentTests" preserve-order="true">
+        <classes>
+            <class name="com.vending.machine.service.VendingMachineTest"/>
+            <class name="com.citybik.api.cucumber.CityBikRunner"></class>
+        </classes>
+    </test>
+</suite>
